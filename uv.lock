@@ -1,0 +1,8 @@
+version = 1
+revision = 5
+requires-python = ">=3.14"
+
+[[package]]
+name = "topic-analysis-of-clothing-reviews-with-embeddings"
+version = "0.1.0"
+source = { editable = "." }

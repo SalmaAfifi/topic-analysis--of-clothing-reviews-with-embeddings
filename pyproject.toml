@@ -1,0 +1,17 @@
+[project]
+name = "topic-analysis-of-clothing-reviews-with-embeddings"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Salma Afifi", email = "salma.afifi5555@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+topic-analysis-of-clothing-reviews-with-embeddings = "topic_analysis_of_clothing_reviews_with_embeddings:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
